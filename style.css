@@ -1,0 +1,33 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    }
+    
+    html, body {
+    height : 100%;
+    width: 100%;
+    font-family: "poppins";
+    }
+    h1{
+        font-family: 'Bebas Neue';
+        letter-spacing: 0.1em;
+        color: transparent;
+        -webkit-text-stroke: 1px hwb(0 94% 3%);
+    }
+    h2{
+        color: transparent;
+        -webkit-text-stroke: 1px hwb(0 94% 3%);
+    }
+    
+    #screen{
+        letter-spacing: 0.5em;
+    }
+    
+    #cast{
+        font-family: "Dancing Script";
+    }
+    
+    #first{
+        font-family: 'Lobster';
+    }
