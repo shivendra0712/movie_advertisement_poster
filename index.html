@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>movie_advertisement_poster</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+US+Trad+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- Prompt 13  –  9/12//24
-Daily Promts:
+    <!-- Prompt 13 -->
+    <div class="main bg-stone-900 w-full h-screen flex flex-col justify-center items-center ">
+        <div class="container bg-[url(img1.png)] lg:bg-[url(img2.png)] w-full h-[100%] lg:w-[70%] max-w-none bg-cover bg-center md:bg-cover relative ">
+            <div class="overlay bg-black/80 w-full h-[100%] absolute flex flex-col z-20 inset-0 opacity-50">
+            </div>
+            <div class="textcontainer w-full h-[100%] text-white absolute z-30 flex flex-col items-left justify-center gap-[1em] text-start px-[1em] md:px-[3em] md:gap-[3em] md:items-center md:pb-[2em] lg:gap-[1.3em]">
+               <h1 class="text-6xl relative top-[-1em] text-center  md:w-[70%] md:py-[0.3em] " id="avengers">AVENGERS: ENDGAME</h1>
+                <p class="text-lg font-semibold text-center md:text-2xl uppercase" id="release">Release Date - Coming to theaters</p>
+                <span class="text-2xl font-bold text-center md:text-4xl">April 26, 2019</span>
+                <h2 class="text-2xl font-bold text-center uppercase md:text-4xl">DIRECTOR - Anthony & Joe Russo</h2>
+                <h2 class="text-center text-2xl font-bold uppercase md:text-4xl">Cast</h2>
+                <p class="text-center font-semibold md:text-2xl lg:text-xl" id="cast">Robert Downey Jr., Chris Evans, Mark Ruffalo, Scarlett Johansson</p>
+                <h2 class="text-2xl font-bold text-center md:text-4xl">GENRE</h2>
+                <p class="text-sm font-medium italic text-center md:text-2xl lg:text-xl">A gripping superhero saga packed with action and emotion.</p>
+                <button class="bg-blue-400 text-white w-[70%] py-[0.5em] rounded-lg border-[1px] border-white hover:bg-blue-500 mx-auto font-semibold md:w-[50%] md:py-[1em] md:text-xl lg:w-[30%] lg:py-[0.5em]">Book Your Tickets Now!</button>
+                <p class="text-lg font-semibold text-center uppercase md:text-3xl">Witness the epic conclusion to the</p>
+                <h2 class="text-xl font-bold text-center uppercase md:text-4xl" id="screen">**Infinity Saga**</h2>
+            </div>
+            <footer class="bg-black w-full h-[2em] absolute bottom-0 flex  text-white justify-center items-center text-center md:h-[4em]">
+                <div class="text flex w-full h-[50%] justify-center items-center md:text-xl">
+                    <p>Follow us for more updates on</p>
+                </div>
+                <div class="imgs flex w-full h-[50%] justify-center items-center gap-[2em] md:gap-[2em] lg:gap-[2em] ">
+                    <i class="fa-brands fa-facebook text-xl "></i>
+                    <i class="fa-brands fa-x-twitter text-xl"></i>
+                    <i class="fa-brands fa-youtube text-xl"></i>
+                    <i class="fa-brands fa-instagram text-xl"></i>
+                </div>
+            </footer>
+        </div>
+    </div>
 
-Design a movie advertisement poster using grid and flexbox layout
- -->
 </body>
 </html>
